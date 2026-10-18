@@ -1,0 +1,13 @@
+# Local deployment target: Python 3.11, 3.12 or 3.13 (64-bit).
+# sklearn version is read from the original artifact. Other versions below
+# are deployment pins, NOT a recovered lockfile of the original Kaggle session.
+scikit-learn==1.6.1
+numpy==2.2.6
+scipy==1.15.3
+pandas==2.2.3
+joblib==1.5.3
+threadpoolctl==3.6.0
+fastapi==0.128.2
+pydantic==2.13.5
+uvicorn==0.48.0
+pyodbc==5.3.0
